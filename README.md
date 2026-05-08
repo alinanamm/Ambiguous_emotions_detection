@@ -18,9 +18,9 @@ Soft-labels построены из raw-версии датасета на ос�
 | # | Разметка | Функция потерь|
 |---|----------|---------------|
 | 1 | One-hot  | BCE           | 
-| 2 | Soft     | KL Divergence | 
-| 3 | One-hot  | Focal Loss    | 
-| 4 | Soft     | Focal Loss    |
+| 2 | Soft     | BCE           | 
+| 3 | Soft     | Focal Loss    |
+| 4 | Soft     | KLDivLoss     | 
 
 ---
 
