@@ -28,7 +28,7 @@
 
 03_weighted_sampling.py / 03_weighted_sampling_sl.py  - + WeightedRandomSampler
 
-04_adaptive_threshold.py / 04_adaptive_threshold_sl.py - + adaptive threshold (финал)
+04_adaptive_threshold.py / 04_adaptive_threshold_sl.py - + adaptive threshold 
 
 ## Краткие итоговые результаты
 
