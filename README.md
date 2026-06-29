@@ -16,19 +16,19 @@
 
 ### [`EDA`](../../tree/EDA) — разведочный анализ корпуса
 
-Анализ распределения эмоций, co-occurrence паттернов между метками, степени согласия аннотаторов, длины текстов и других характеристик GoEmotions, предшествующий выбору архитектуры и стратегии разметки.
+Анализ распределения эмоций, степени согласия аннотаторов, длины текстов и других характеристик GoEmotions.
 
 ### [`experiments`](../../tree/experiments) — эксперименты с моделью
 
 Пошаговая адаптация TACO к multi-label постановке задачи, отдельно для one-hot и soft-label разметки:
 
-01_baseline.py / 01_baseline_sl.py            — TACO baseline (one-hot / soft-label)
+01_baseline.py / 01_baseline_sl.py - TACO baseline (one-hot / soft-label)
 
-02_focal_bce.py / 02_focal_bce_sl.py           — + focal BCE с весами по обратной частоте класса
+02_focal_bce.py / 02_focal_bce_sl.py  - + focal BCE с весами по обратной частоте класса
 
-03_weighted_sampling.py / 03_weighted_sampling_sl.py  — + WeightedRandomSampler
+03_weighted_sampling.py / 03_weighted_sampling_sl.py  - + WeightedRandomSampler
 
-04_adaptive_threshold.py / 04_adaptive_threshold_sl.py — + adaptive threshold (финал)
+04_adaptive_threshold.py / 04_adaptive_threshold_sl.py - + adaptive threshold (финал)
 
 ## Краткие итоговые результаты
 
@@ -53,8 +53,7 @@
 ## Используемые источники
 
 - Demszky et al. (2020). GoEmotions: A Dataset of Fine-Grained Emotions. ACL 2020.
-- Gong et al. (2025). TACO: A Triple-View Framework for Fine-Grained Emotion Classification with Clustering-Guided Contrastive Learning. ACL 2025.
 - Suresh & Ong (2021). Not All Negatives are Equal: Label-Aware Contrastive Loss for Fine-grained Text Classification. EMNLP 2021.
 - Lim & Cheong (2024). Integrating Plutchik's Theory with Mixture of Experts for Enhancing Emotion Classification. EMNLP 2024.
+- Gong et al. (2025). TACO: A Triple-View Framework for Fine-Grained Emotion Classification with Clustering-Guided Contrastive Learning. ACL 2025.
 
-Полный список источников — в презентации защиты.
